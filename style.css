@@ -1,7 +1,7 @@
-/**
-        to-do list
+/*
+    to-do list
 
-        - remove some classes from non existent divs on main
+    - remove some classes from non existent divs on main
 */
 
 /* GENERAL SELECTORS */
@@ -237,7 +237,7 @@ body {
             border-radius: 2.5px;
             cursor: pointer;
         }
-        .btn-subscribe p {
+        .btn-subscribe span {
             text-transform: uppercase;
             font-size: 14px;
         }
