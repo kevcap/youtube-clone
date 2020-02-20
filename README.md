@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://kevinalvesdev.github.io/youtube-clone/)
+[Live Demo Link](https://raw.githack.com/Kevinalvesdev/youtube-clone/main/index.html)
 
 ## Getting Started
 
