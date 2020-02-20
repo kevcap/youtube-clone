@@ -37,15 +37,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Felipe Dacal Fragoso**
 
-- Github: [@githubhandle](https://github.com/fdfragoso)
-- Twitter: [@twitterhandle](https://twitter.com/fdfragoso)
-- Linkedin: [linkedin](https://www.linkedin.com/in/fdfragoso/)
+- Github: [@fdfragoso](https://github.com/fdfragoso)
+- Twitter: [@fdfragoso](https://twitter.com/fdfragoso)
+- Linkedin: [@fdfragoso](https://www.linkedin.com/in/fdfragoso/)
 
 👤 **Kevin Alves**
 
-- Github: [@githubhandle](https://github.com/Kevinalvesdev)
-- Twitter: [@twitterhandle](https://twitter.com/kevinnnmn)
-- Linkedin: [linkedin](https://www.linkedin.com/in/kevinnn/)
+- Github: [@kevinalvesdev](https://github.com/Kevinalvesdev)
+- Twitter: [@kevinnnmn](https://twitter.com/kevinnnmn)
+- Linkedin: [@kevinnn](https://www.linkedin.com/in/kevinnn/)
 
 ## 🤝 Contributing
 
