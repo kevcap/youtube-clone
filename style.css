@@ -4,15 +4,26 @@
         - remove some classes from non existent divs on main
 */
 
+/* GENERAL SELECTORS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 body {
     background-color: #1f1f1f;
+}
+
+/* GENERAL CLASSES*/
+.grey {
+    color: #AAAAAA
+}
+.upper-case {
+    text-transform: uppercase;
 }
 
 /* WORKING ON HEADER */
@@ -118,8 +129,10 @@ body {
     font-weight: 100;
 }
 
-.div-main h2{
+.main-video-title{
     padding: 0px 0px 17px 5px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .div-main hr{
@@ -139,6 +152,7 @@ body {
     width: 100%;
     padding: 0px 8px 8px;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 .div-main-video-titles{
@@ -163,9 +177,19 @@ body {
     cursor: pointer;
 }
 
+.main-divisor {
+    border: 0.25px solid #AAAAAA;
+}
 /* WORKING ON VIDEO INFO*/
 
 .div-main-channel{
+    margin: 10px;
+}
+.main-video-status-parent {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
 
 }
 
@@ -194,7 +218,7 @@ body {
     }
 
         .div-main-channel-info p{
-            font-weight: bold;
+         
         }
 
     .div-main-channel-btn-subscribe{
@@ -207,7 +231,12 @@ body {
             color: white;
             border: none;
             padding: 10px;
-            
+            border-radius: 2.5px;
+            cursor: pointer;
+        }
+        .btn-subscribe p {
+            text-transform: uppercase;
+            font-size: 14px;
         }
 
     .div-main-channel-bottom{
@@ -217,6 +246,61 @@ body {
 /* WORKING ON SIDE BAR */
 
 .sidebar{
-    background-color: red;
-    height: 530px;
+
 }
+
+.up-next {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 15px 15px 0;
+}
+.up-next h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.up-next p {
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* WORKING ON VIDEO RECOMMENDATIONS */
+.video-recommendations {
+    display: flex;
+    height: 100px;
+  
+}
+    .video-recommended {
+        margin-right: 10px;
+    }
+    .video-duration {
+        font-size: 13.4px;
+        font-weight: 500;
+        position: relative;
+        bottom: 28%;
+        left: 75%;
+        background-color: rgba(0, 0, 0, 0.3);
+        width: fit-content;
+        padding: 2px 4px;
+        border-radius: 3px;
+        
+    }
+    .video-recommended-text {
+
+    }
+    .video-recommended-text h4 {
+        font-size: 14px;
+        padding: 0px 0px 4px;
+        font-weight: normal;
+    }
+    .video-recommended-text p {
+        font-size: 13px;
+        color: #AAAAAA;
+    }
+    .video-bar{
+        margin-bottom: 10px;
+        border: 0.28px solid #AAAAAA;
+        width: 95%;
+    }
