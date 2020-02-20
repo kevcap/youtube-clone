@@ -240,8 +240,14 @@ body {
         }
 
     .div-main-channel-bottom{
-
+        margin-left: 64px;
+        margin-right: 20%;
     }
+
+        .div-main-channel-bottom p{
+            font-size: 14px;
+            line-height: 18px;
+        }
 
 /* WORKING ON SIDE BAR */
 
@@ -304,3 +310,9 @@ body {
         border: 0.28px solid #AAAAAA;
         width: 95%;
     }
+
+/* CLASSES OF GENERAL PURPOSE*/
+
+.bold{
+    font-weight: 600;
+}
