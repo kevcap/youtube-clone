@@ -387,6 +387,7 @@ body {
 
 .div-main-write-comment-text{
     margin-left: 30px;
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -440,6 +441,7 @@ body {
 .written-comments-reactions p{
     margin-left: 8px;
     margin-right: 24px;
+    cursor: pointer;
 }
 
 .written-comments-thumbs-up{
@@ -448,13 +450,31 @@ body {
     height: 18px;
 }
 
+.written-comments-thumbs-up path:hover{
+    fill: white;
+}
 .written-comments-thumbs-down{
     display: flex;
     width: 18px;
     height: 18px;
 }
+.written-comments-thumbs-down path:hover{
+    fill: white;
+}
 .written-comments-answers{
+    display: flex;
+    cursor: pointer;
+}
+.written-comments-answers a {
+    font-size: 14px;
+    color: #3ea6ff;
+}
 
+.reply-svg {
+    width: 20px;
+}
+.reply-svg-icon{
+    fill:#3ea6ff;
 }
 .channel-owner-reaction {
     width: 36px;
@@ -490,6 +510,7 @@ body {
 .heart-icon-border {
     fill: white;
 }
+
 /* CLASSES OF GENERAL PURPOSE*/
 
 .bold{
