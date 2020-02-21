@@ -471,14 +471,17 @@ body {
 .heart-reaction-icon{
     width: 14px;
     position: relative;
-    right: 6.7px;
+    right: 16.7px;
     top: 6px;
+    z-index: 1;
 }
 .heart-reaction-border{
-    width: 14px;
+    width: 16px;
+    height: 20px;
     position: relative;
     right: 6.7px;
-    top: 6px;
+    top: 7.1px;
+    z-index: 0;
 }
 .heart-icon{
     fill: red;
