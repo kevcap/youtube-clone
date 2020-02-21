@@ -456,8 +456,37 @@ body {
 .written-comments-answers{
 
 }
-
-
+.channel-owner-reaction {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+.channel-owner-reaction img {
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+}
+.heart-reaction-icon{
+    width: 14px;
+    position: relative;
+    right: 6.7px;
+    top: 6px;
+}
+.heart-reaction-border{
+    width: 14px;
+    position: relative;
+    right: 6.7px;
+    top: 6px;
+}
+.heart-icon{
+    fill: red;
+    width: 13px;
+}
+.heart-icon-border {
+    fill: white;
+}
 /* CLASSES OF GENERAL PURPOSE*/
 
 .bold{
