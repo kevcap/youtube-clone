@@ -64,8 +64,9 @@ body {
 
 .div-logo {
     cursor: pointer;
-    width: 80px;
+    min-width: 80px;
     height: 24px;
+    
 }
 
 /*  WORKING ON SEARCH */
@@ -301,6 +302,10 @@ body {
         padding: 2px 4px;
         border-radius: 3px;
         
+    }
+    
+    .video-duration p {
+        width: 41px;
     }
     .video-recommended-text {
         width: 202px;
